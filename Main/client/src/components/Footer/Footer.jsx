@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "./Footer.scss"
 const Footer = () => {
   return (
     <div className="footer">
@@ -35,7 +35,9 @@ const Footer = () => {
           <span className='logo'>EcomStore</span>
           <span className='copyright'>© Copyright 2023.All Rights Reserved</span>
         </div>
-        <div className="right"></div>
+        <div className="right">
+          <img src="img/payment.png" alt="" />
+        </div>
       </div>
     </div>
   )
