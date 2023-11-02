@@ -15,7 +15,7 @@ const FeaturedProducts = ({ type }) => {
         }, {
             id: 2,
             img1: "img/short sleeve.jpg",
-            img2: "img/lshort sleeve2.jpg",
+            img2: "img/short sleeve2.jpg",
             title: "Short-sleeve",
             isNew: true,
             oldPrice: 12,
