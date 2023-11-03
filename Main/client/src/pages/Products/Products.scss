@@ -1,0 +1,10 @@
+.products {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    .right {
+        height: 100px;
+        width: 200px;
+    }
+}

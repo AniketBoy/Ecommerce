@@ -2,6 +2,7 @@ import React from 'react'
 import "./Card.scss"
 import { Link } from 'react-router-dom'
 const Card = ({ item }) => {
+    console.log("hi")
     return (
         <div className="card">
             <Link to={`/product/${item.id}`} className="link" >
