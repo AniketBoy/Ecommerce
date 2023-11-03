@@ -1,0 +1,29 @@
+.contact {
+    background-color: lightblue;
+    height: 60px;
+
+    .wrapper {
+        height: 100%;
+        padding: 30 px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .email {
+            input {
+                border-radius: 5px 0 0 5px;
+                border: none;
+                height: 30px;
+
+            }
+
+            button {
+                border-radius: 0 5px 5px 0;
+                border: none;
+                height: 30px;
+                background-color: black;
+                color: white;
+            }
+        }
+    }
+}
